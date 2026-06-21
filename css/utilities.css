@@ -1,0 +1,27 @@
+/* utilities.css — print styles, high-contrast mode */
+/* ===== PRINT STYLES ===== */
+@media print {
+  .navbar, .mobile-menu, .now-playing, .toast, .modal, .scroll-progress,
+  .back-to-top, .hero-actions .btn, .playlist-play, .btn-spotify,
+  .social-icons, .db-info, #contact-form, #guestbook-form, .menu-btn,
+  #theme-toggle, .btn-cta, .note-back, .note-delete, .notes-lock,
+  #now .now-card .now-text[contenteditable] {
+    display: none !important;
+  }
+  body { background: #fff !important; color: #000 !important; }
+  .section { padding: 1rem 0 !important; border-color: #ccc !important; page-break-inside: avoid; }
+  .card, .contact-form, .films-section { background: #fff !important; color: #000 !important; border-color: #ccc !important; }
+  .films-section * { color: #000 !important; }
+  a { color: #000 !important; text-decoration: underline; }
+  .reveal { opacity: 1 !important; transform: none !important; }
+  .hero-portrait img { max-width: 200px !important; }
+  main { padding-top: 1rem !important; }
+}
+
+/* ===== HIGH CONTRAST MODE ===== */
+@media (prefers-contrast: high) {
+  :root { --border: var(--fg); --muted: var(--fg); }
+  .card, .contact-form, .modal-content, .playlist-card, .project-card {
+    border-width: 2px;
+  }
+}

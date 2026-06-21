@@ -1,0 +1,19 @@
+{
+  "name": "Louie Tan — Portfolio",
+  "short_name": "Louie Tan",
+  "description": "Personal site of Louie Tan — just a normal person and a student.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
