@@ -48,6 +48,6 @@ const FORMSPREE_GUESTBOOK_ID = "https://formspree.io/f/mjgqboda";
  *
  * Leave as "" to disable — the Watching card falls back to a plain title field.
  */
-const TMDB_API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYjlkYWQ4NzE1NjY0NDVjNDc5NjRjYzY3NjZhNGFlYyIsIm5iZiI6MTc4MjA0NzE2My42OCwic3ViIjoiNmEzN2UxYmIyZmViNmM4MWQ1MzQ3MTE3Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.OyFfB4uzn9qcASyLGbhVUi6dcKepUZ13CrwxqAn74uk";
+const TMDB_API_KEY = "2b9dad871566445c47964cc6766a4aec";
 
 // Expose globals so other scripts can use them.
